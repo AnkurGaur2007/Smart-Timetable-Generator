@@ -50,7 +50,6 @@ This project is meant to be easy to read and understand, especially for a second
 ```text
 Smart Timetable Generator Project/
 ├── README.md
-├── Run.bat
 └── src/
     ├── Subject.java
     ├── Room.java
