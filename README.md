@@ -150,89 +150,6 @@ So the overall worst case is expensive, but that is expected for a backtracking 
 
 ---
 
-## Sample Console Output
-
-```text
-==================================================
-SMART TIMETABLE GENERATOR
-==================================================
-Enter number of subjects: 3
-
---------------------------------------------------
-Subject 1
---------------------------------------------------
-Subject Name: Data Structures
-Faculty Name: Dr. Sharma
-Lectures Per Week: 3
-Is this a Lab? (Y/N): N
-
---------------------------------------------------
-Subject 2
---------------------------------------------------
-Subject Name: OOP
-Faculty Name: Prof. Mehta
-Lectures Per Week: 4
-Is this a Lab? (Y/N): N
-
---------------------------------------------------
-Subject 3
---------------------------------------------------
-Subject Name: DBMS
-Faculty Name: Dr. Verma
-Lectures Per Week: 2
-Is this a Lab? (Y/N): N
-
---------------------------------------------------
-1. Generate Timetable
-2. Generate New Timetable
-3. Exit
---------------------------------------------------
-Choose an option: 1
-
-==================================================
-SMART UNIVERSITY TIMETABLE
-==================================================
-
---------------------------------------------------
-MONDAY
---------------------------------------------------
-Slot 1 (8:00 - 9:00)
-
-Room     : R101
-Subject  : Data Structures
-Faculty  : Dr. Sharma
---------------------------------------------------
-
-Slot 2 (9:00 - 10:00)
-
-Room     : R102
-Subject  : OOP
-Faculty  : Prof. Mehta
---------------------------------------------------
-
---------------------------------------------------
-TUESDAY
---------------------------------------------------
-Slot 1 (8:00 - 9:00)
-
-Room     : R103
-Subject  : DBMS
-Faculty  : Dr. Verma
---------------------------------------------------
-
-==============================
-Generation Successful
-
-Recursive Calls : 1284
-Backtracks : 176
-Placement Attempts : 340
-Failed Placements : 214
-Execution Time : 24 ms
-==============================
-```
-
----
-
 ## Learning Outcomes
 
 This project helped me understand:
@@ -342,11 +259,11 @@ After that, the menu lets you:
 
 The program automatically creates these rooms:
 
-- `R101` - capacity 60 - normal classroom
-- `R102` - capacity 60 - normal classroom
-- `R103` - capacity 60 - normal classroom
-- `R104` - capacity 60 - normal classroom
-- `LAB1` - capacity 30 - laboratory
+- `R101` - normal classroom
+- `R102` - normal classroom
+- `R103` - normal classroom
+- `R104` - normal classroom
+- `LAB1` - laboratory
 
 ---
 
