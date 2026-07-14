@@ -186,11 +186,10 @@ These ideas are useful future upgrades, but I kept the current version simple on
 
 ## How to Run
 
-### Option 1: One-click run on Windows
+### Option 1: Run on IDE
 
 1. Open the project folder.
-2. Double-click `Run.bat`.
-3. The script compiles the Java files and starts the program.
+2. Run the main.java file
 
 ### Option 2: Manual run
 
@@ -217,7 +216,7 @@ java -cp out Main
 
 ## Author
 
-Author: Your Name
+Author: Ankur Gaur
 
 ---
 
